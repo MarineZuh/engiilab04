@@ -9,5 +9,3 @@ deploy:
   api_key:
     - secure: $TOKEN_HEROKU
   app: $APP
-script:
-  - echo "skipping tests"
