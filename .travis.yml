@@ -9,5 +9,6 @@ deploy:
   api_key:
     - secure: $TOKEN_HEROKU
   app: $APP
-script:
-  - echo "skipping tests"
+install: true
+script: mvn clean package -DskipTests=true
+
